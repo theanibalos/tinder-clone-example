@@ -21,7 +21,7 @@ The goal of this demo was to prove that with the right architecture, AI coding b
 ## 🚀 Quick Start
 
 ```bash
-git clone git@github.com:theanibalos/tinder-clone-example.git
+git clone https://github.com/theanibalos/tinder-clone-example.git
 cd tinder-clone-example
 cp .env.example .env
 uv run main.py
