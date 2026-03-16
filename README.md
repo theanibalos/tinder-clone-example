@@ -1,4 +1,4 @@
-# 🔥 Red-li: The Tinder Clone Built in 40 Minutes
+# 🔥 The Tinder Clone Built in 40 Minutes
 
 > **⚠️ DISCLAIMER:** This project is a demonstration of **MicroCoreOS**'s speed and developer experience.
 > It was built **live from scratch in approximately 30-40 minutes**, from initial planning to a fully functional set of REST and WebSocket endpoints.
@@ -21,8 +21,8 @@ The goal of this demo was to prove that with the right architecture, AI coding b
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/theanibalos/MicroCoreOS.git
-cd MicroCoreOS
+git clone git@github.com:theanibalos/tinder-clone-example.git
+cd tinder-clone-example
 cp .env.example .env
 uv run main.py
 # Visit http://localhost:5000/docs for the OpenAPI spec
@@ -34,16 +34,16 @@ uv run main.py
 
 Despite the 40-minute build time, Red-li includes a comprehensive feature set across modular domains:
 
-| Domain | Key Features |
-| :--- | :--- |
-| **Profiles** | User profiles, dating preferences, and photo management. |
-| **Swipes** | Liking, passing, and undoing swipes. |
-| **Matches** | Automatic match generation triggered by the Event Bus. |
-| **Messages** | Real-time chat via WebSockets between matches. |
-| **Discovery** | Recommendation engine for finding potential partners. |
-| **Moderation** | Blocking and reporting systems. |
-| **Users** | Authentication (JWT), registration, and account management. |
-| **System** | Live observability, causal tracing, and health monitoring. |
+| Domain         | Key Features                                                |
+| :------------- | :---------------------------------------------------------- |
+| **Profiles**   | User profiles, dating preferences, and photo management.    |
+| **Swipes**     | Liking, passing, and undoing swipes.                        |
+| **Matches**    | Automatic match generation triggered by the Event Bus.      |
+| **Messages**   | Real-time chat via WebSockets between matches.              |
+| **Discovery**  | Recommendation engine for finding potential partners.       |
+| **Moderation** | Blocking and reporting systems.                             |
+| **Users**      | Authentication (JWT), registration, and account management. |
+| **System**     | Live observability, causal tracing, and health monitoring.  |
 
 ---
 
@@ -89,4 +89,3 @@ Red-li leverages the standard MicroCoreOS toolset:
 ---
 
 **Developed by Anibal Fernandez** ([@theanibalos](https://github.com/theanibalos)) to demonstrate the future of AI-assisted engineering.
-
