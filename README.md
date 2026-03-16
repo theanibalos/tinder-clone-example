@@ -18,6 +18,15 @@ The goal of this demo was to prove that with the right architecture, AI coding b
 
 ---
 
+## 🛠️ Prerequisites
+
+Before you begin, ensure you have the following installed:
+- **Python 3.10+**
+- **Git**
+- **[uv](https://github.com/astral-sh/uv)** (Fast Python package manager)
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
